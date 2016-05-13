@@ -1,19 +1,25 @@
-class Program
+using System;
+
+namespace cSharp.fitness
 {
-    static void Main()
+
+    class Program
     {
-        // Prompt the user for minutes exercised.
-        Console.Write("Enter how many minutes you exercised: ");
+        static void Main()
+        {
+             // Prompt the user for minutes exercised.
+             Console.Write("Enter how many minutes you exercised: ");
         
-        string entry = Console.ReadLine();
+            string entry = Console.ReadLine();
         
-        // Add minutes exercised to total
-        // Display total minutes exercised on screen
-        Console.Write("You've entered");
-        Console.Write(entry);
-        Console.WriteLine(" minutes");
+            // Add minutes exercised to total
+            // Display total minutes exercised on screen
+
         
-        //Repeat until user quits.
+            Console.WriteLine("You've entered " + entry + " minutes");
         
+            // Repeat until user quits.
+        
+        }
     }
 }
